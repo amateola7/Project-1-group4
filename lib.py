@@ -27,7 +27,7 @@ def get_data(indicator='SP.POP.TOTL',date=now.year,country='all'):
         results = requests.get(baseURL.format(country,indicator,date,page)).json()
         data_returned.append(results[1])
     # Create a simple dataframe for the data.   
-    df = pd.DataFrame(columns=['country','year','value'])
+    df = pd.DataFrame(columns=['ISO','Year',indicator])
     # Load the data into the dataframe
     for pg in data_returned:
         for obs in pg:
