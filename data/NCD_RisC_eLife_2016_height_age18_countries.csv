@@ -1,4 +1,4 @@
-Country,ISO,Sex,Year of birth,Mean height (cm),Mean height lower 95% uncertainty interval (cm),Mean height upper 95% uncertainty interval (cm)
+Country,ISO,Sex,Year of birth,Mean height(cm),Mean height lower 95% uncertainty interval (cm),Mean height upper 95% uncertainty interval (cm)
 Afghanistan,AFG,Men,1896,161.1640953,154.4842849,167.7540333
 Afghanistan,AFG,Men,1897,161.196286,154.5716033,167.6596179
 Afghanistan,AFG,Men,1898,161.2282966,154.7073403,167.6025756
